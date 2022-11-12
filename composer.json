@@ -1,0 +1,17 @@
+{
+    "name": "user/ipt10-generating-pdf-files",
+    "autoload": {
+        "psr-4": {
+            "User\\Ipt10GeneratingPdfFiles\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "clvnknt",
+            "email": "p.calvinkent@gmail.com"
+        }
+    ],
+    "require": {
+        "fpdf/fpdf": "^1.84"
+    }
+}
