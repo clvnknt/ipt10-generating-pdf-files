@@ -1,8 +1,8 @@
 {
-    "name": "user/ipt10-generating-pdf-files",
+    "name": "calvinkent/pdc10-generating-pdf-files",
     "autoload": {
         "psr-4": {
-            "User\\Ipt10GeneratingPdfFiles\\": "src/"
+            "Calvinkent\\Pdc10GeneratingPdfFiles\\": "src/"
         }
     },
     "authors": [

@@ -7,24 +7,24 @@ namespace Composer\Autoload;
 class ComposerStaticInitf18d3248c9c0c7eb4e55d75088c99913
 {
     public static $prefixLengthsPsr4 = array (
-        'U' => 
-        array (
-            'User\\Ipt10GeneratingPdfFiles\\' => 29,
-        ),
         'F' => 
         array (
             'Fpdf\\' => 5,
         ),
+        'C' => 
+        array (
+            'Calvinkent\\Pdc10GeneratingPdfFiles\\' => 35,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'User\\Ipt10GeneratingPdfFiles\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
-        ),
         'Fpdf\\' => 
         array (
             0 => __DIR__ . '/..' . '/fpdf/fpdf/src/Fpdf',
+        ),
+        'Calvinkent\\Pdc10GeneratingPdfFiles\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 

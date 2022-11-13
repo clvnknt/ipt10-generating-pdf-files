@@ -6,6 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'User\\Ipt10GeneratingPdfFiles\\' => array($baseDir . '/src'),
     'Fpdf\\' => array($vendorDir . '/fpdf/fpdf/src/Fpdf'),
+    'Calvinkent\\Pdc10GeneratingPdfFiles\\' => array($baseDir . '/src'),
 );
