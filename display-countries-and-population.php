@@ -52,7 +52,7 @@ class PDF extends Fpdf
 
 $pdf = new PDF();
 // Column headings
-$header = array('#', 'Country (or dependency)', 'Population (2022)',);
+$header = array('#', 'Country (or dependency)', 'Population (2022)');
 $pdf->SetFont('Arial','',14);
 $pdf->AddPage();
 $pdf->BasicTable($header, $data);
